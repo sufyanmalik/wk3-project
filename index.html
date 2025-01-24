@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookie Clicker</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Cookie Clicker</h1>
+      <p>
+        Baked to perfection, but unfortunately still not better than doughnuts
+      </p>
+      <p>distributed by your local digital bakery</p>
+    </header>
+
+    <div class="main" aria-live="assertive" tabindex="0">
+      <div id="cookie-display">Cookies: 0</div>
+
+      <p id="cpsDisplay">Cookies Per Second: 0</p>
+
+      <button id="cookie-button">
+        <img
+          src="https://cartoonsco-media.s3.amazonaws.com/uploads/2022/08/cookie-animated-gif.gif"
+          alt="a picture of a cookie rotating slowly"
+        />
+      </button>
+    </div>
+
+    <br />
+
+    <div id="content" aria-live="assertive" tabindex="0"></div>
+
+    <footer>
+      <marquee behavior="" direction="">
+        Keep an eye out for doughnut clicker, our awesome sequel!
+      </marquee>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9f4ef;
+  text-align: center;
+  padding: 10px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: #5e4322;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #8c6b43;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#cookie-display {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #5e4322;
+}
+
+#cpsDisplay {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #8c6b43;
+}
+
+#cookie-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.5s ease;
+}
+
+#cookie-button img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  animation: spin 13s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#cookie-button:hover {
+  transform: scale(1.3);
+}
+
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.shoppost {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.shoppost h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.shoppost p {
+  margin: 5px 0;
+}
+
+.shoppost button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shoppost button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 1rem;
+  color: #8c6b43;
+}
