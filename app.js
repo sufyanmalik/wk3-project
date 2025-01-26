@@ -1,6 +1,6 @@
 console.log("Hello");
 
-let cookieCount = 0; //localStorage.getItem("savedCount") || 0;  - tried Sam's way couldnt get it to work properly so gave up with that.
+let cookieCount = 0; //localStorage.getItem("savedCount") || 0;  - tried Sam's way couldnt get it to work properly so gave up with that
 let cookiesPerSecond = 1;
 
 function updateCookieDisplay() {
@@ -24,6 +24,7 @@ function updateCPSDisplay() {
 setInterval(() => {
   cookieCount += cookiesPerSecond;
   updateCookieDisplay();
+  updateCPSDisplay();
   saveGame();
 }, 1000);
 

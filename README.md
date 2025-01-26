@@ -8,6 +8,7 @@ Extra sources used:
 
 https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute
 https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Strings
+Cooler for colours
 
 What I found difficult:
 
